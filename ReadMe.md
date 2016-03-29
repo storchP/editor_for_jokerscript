@@ -1,7 +1,7 @@
 Editor For Jokerscript
 ====
 
-Overview
+## Overview
 Unity上で動作するプラグイン「Jokerスクリプト」専用のコードをサクラエディタで編集したいという奇特な方向けの入力補完・強調表示ファイルです。
 知識のある方であれば、その他のテキストエディタやIDE用の設定ファイルにも流用出来るでしょう。
 ## Description
