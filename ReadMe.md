@@ -7,15 +7,19 @@ Unity上で動作するプラグイン「Jokerスクリプト」専用のコー�
 ## Description
 現在、Unity付属のVisualStudioではJokerスクリプトの入力補完やシンタックスハイライトは困難な事、VisualStudio自体が非力なマシンではやや不安という個人的需要から作成しました。
 サクラエディタとUnityをインストール後、Unity上でEdit->Preference->ExternalツールでUnityから立ち上げるエディタをVisualStudioからサクラエディタに切り替えた後、このファイルを下記Usageの通りサクラエディタに読み込ませてあげてください。
-
-## Usage
+## Download
+ページ右上にある緑色のボタン「Clone or download」をクリックし、ボタンの下に表示された「Download zip」をクリックすると必要なファイル一式が落ちてきますので、次の通り設定してください。
+## Usage & Install
+ダウンロード・解凍したファイル一式を次の手順で導入します。
+### Step1
+解凍されたファイルの設置方法は下記の通りです。
 \サクラエディタインストール済みディレクトリ\sakura\keyword ディレクトリ内にkwdファイルを設置、その他のファイルは任意のディレクトリに設置
-
-## Install
+### Step2
+サクラエディタを立ち上げてファイルのインポートを行います。
 設定->タイプ別設定->カラー->共通設定->セット追加
 ここから任意のセット名でそれぞれシンタックスハイライトの設定ファイル .kwd をインポート
 
-### Install Supplemental
+### Step3 (Install Supplemental)
 joker_tag.kwdはjokerスクリプト用タグになりますので、インポートする際はセット名をJOKER_TAGに
 joker_param.kwdはjokerスクリプト用タグのパラメーターになりますので、セット名をJOKER_PARAM等にしておくと後でわかりやすいでしょう。
 
